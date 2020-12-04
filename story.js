@@ -13,8 +13,8 @@ import Animated, {
 } from 'react-native-reanimated';
 
 const Story = ({route}) => {
-  // const translateX = useSharedValue(0);
-  // const translateY = useSharedValue(0);
+  const translateX = useSharedValue(0);
+  const translateY = useSharedValue(0);
 
   // const onGestureEvent = useAnimatedGestureHandler({
   //   onActive: ({translationX, translationY}) => {

@@ -39,7 +39,7 @@ const App = () => {
         <Stack.Navigator
           mode="modal"
           screenOptions={{
-            gestureEnabled: false,
+            gestureEnabled: true,
             headerShown: false,
             cardOverlayEnabled: true,
             gestureDirection: 'vertical',
